@@ -102,7 +102,7 @@ type ListImagesRequest struct {
 
 type ListImagesResponse struct {
 	Images []string `json:"images"`
-	Token  string
+	Token  string   `json:"token"`
 }
 
 func ListImage(c *logic.LogicContext) {
