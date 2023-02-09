@@ -66,7 +66,7 @@ class MainPage extends GetView<MainController> {
           controller.search(value);
         },
         decoration: InputDecoration(
-          hintText: 'Search -- Currently only supports English',
+          hintText: 'Search',
           hintStyle: const TextStyle(
             color: Colors.grey,
           ),
